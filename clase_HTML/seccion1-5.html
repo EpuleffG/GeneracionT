@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href=" https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css " rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-animation.min.css">
+    <title>Document</title>
+    <style>
+        a:visited{
+            color:inherit;
+        }
+        a{
+            text-decoration: none; 
+        }
+        body{
+            align-items: center; 
+            background-image: url(./fondo.jpg); 
+            backdrop-filter: blur(2px);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        body:hover{
+            backdrop-filter: blur(0px);
+        }
+        .contenedor{
+            background: rgba(100, 9, 185, 0.171); 
+        backdrop-filter: blur(4px);
+        
+        margin: 0 auto; 
+        margin-top: 50px; 
+        padding-top: 50px;
+        height: 550px; 
+        width: 400px;
+        color:rgb(255, 255, 255);
+        text-align: center; 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        border-radius: 10%;
+        transition: all 0.5s ease-in-out;
+        filter: drop-shadow(8px 8px 4px rgb(193, 28, 226)); 
+        }
+        .contenedor.background{
+            filter:blur(4px);
+        }
+        .contenedor:hover{
+            color: white;
+            background: rgba(129, 18, 202, 0.37);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+    <h2>Solicitud de Contacto</h2>
+    <label>Nombre: <input type="text" id="Name" name="Name" /></label>
+    <br>
+    <label>Apellido: <input type="text" id="Name" name="Name" /></label>
+    <br>
+    <label>Email: <input type="text" id="Name" name="Name" /></label>
+    <br>
+    
+    <br>
+    <select id="Opcion">
+        <option value="Soltero/a">Soltero/a</option>
+        <option value="Casado/a">Casado/a</option>
+        <option value="Viudo/a">Viudo/a</option>
+        <option value="Comprometido/a">Comprometido/a</option>
+    </select>
+    <br>
+    <br>
+    <label><input type="checkbox">¿Desea recibir el newspaper? <i class="fa fa-newspaper-o faa-shake animated" aria-hidden="true"></i></label>
+    <br><br>
+    <textarea name="comments" id="comments" ></textarea>
+    
+    <br>
+    <button type="button"><a href="./seccion1-5.html">Limpiar Comentario</a></button>
+    <button type="button"><a href="./index.html">Enviar formulario</a></button>
+    <br>
+    
+    <button type="button" ><a href="./index.html"><i class="fa fa-arrow-left faa-pulse animated" aria-hidden="true"></i>Volver</a>
+    </div>
+    
+
+    </button>
+</body>
+</html>
