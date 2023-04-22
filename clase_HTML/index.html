@@ -17,11 +17,20 @@
             
         }
         body{
-            align-items: center; background-image: url(./fondo.jpg); background-repeat: no-repeat;background-size: cover;
+            align-items: center; 
+            background-image: url(./fondo.jpg); 
+            backdrop-filter: blur(2px);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        body:hover{
+            backdrop-filter: blur(0px);
         }
 
         .Contenedor{
-        background: rgba(43, 42, 42, 0.726); 
+        background: rgba(100, 9, 185, 0.171); 
+        backdrop-filter: blur(4px);
+        
         margin: 0 auto; 
         margin-top: 20px; 
         padding-top: 50px;
@@ -34,9 +43,13 @@
         transition: all 0.5s ease-in-out;
         
         }
+        .Contenedor.background{
+            filter:blur(4px);
+        }
         .Contenedor:hover{
             color: white;
-            background: rgb(0, 0, 0);
+            background: rgba(143, 28, 209, 0.295);
+            backdrop-filter: blur(20px);
         }
         a:visited{
             color:inherit;
@@ -52,6 +65,7 @@
 </head>
 <body >
     <div class="Contenedor">
+        
         <i class="fa fa-discord faa-float animated" aria-hidden="true">
     
     <h1>ENTREVISTA HTML</h1>
