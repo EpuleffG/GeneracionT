@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Ejercicio STAR WARS</title>
-
+    <link rel="stylesheet" href="./mis_estilos.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://i.postimg.cc/PfQR2RNx/cloneold-87096-64x64.png" />
   </head>
   <body>
@@ -13,11 +13,11 @@
     <br />
 
     <h3>(las originales, que eran la posta)</h3>
-
+    <div class="imperio">
     <h2>El imperio</h2>
     <br />
     <ul>
-      <li>Lider: Darth Vader</li>
+      <li id="id_darth_vader">Lider: Darth Vader</li>
 
       <img
         src="https://elastic-khorana-29f1fb.netlify.app/darth_vader.png"
@@ -26,10 +26,10 @@
         height="500px"
       /><br />
 
-      <li> Tropa principal: StormTroopers</li>
+      <li class="Soldado"> Tropa principal: StormTroopers</li>
       <br />
 
-      <img
+      <img 
         src="https://elastic-khorana-29f1fb.netlify.app/stormtrooper.png"
         alt="stormtrooper"
         width="375px"
@@ -49,7 +49,7 @@
             height="400px"
           /><br /><br />
 
-          <li>Tie Fighter</li>
+          <li class="nave">Tie Fighter</li>
 
           <img
             src="http://vignette1.wikia.nocookie.net/starwars/images/9/92/TIEfighter2-Fathead.png/revision/latest?cb=20150309055216"
@@ -60,17 +60,17 @@
         </li>
       </ul>
     </ul>
-
+    </div>
     <hr />
-
+    <div class="rebeldes">
     <h2>Los rebeldes</h2>
     <br />
 <ul>
 
-    <li> Lider: Luke Skywalker</li>
+    <li id="id_luke"> Lider: Luke Skywalker</li>
     <br />
 
-    <img
+    <img 
       src="https://elastic-khorana-29f1fb.netlify.app/skywalker.png"
       alt="luke_skywalker"
       height="600px"
@@ -78,10 +78,10 @@
     />
     <br />
 
-    <li>Droides</li>
+    <li class="Soldado">Droides</li>
     <br />
 
-    <div >
+    <div class="droide-img">
       <img src="https://elastic-khorana-29f1fb.netlify.app/r2d2.png" alt="r2d2" width="400px" height="500px" />
 
       <img src="https://elastic-khorana-29f1fb.netlify.app/c3po.png" alt="c3po" width="400px" height="700px" />
@@ -106,7 +106,7 @@
       />
       <br />
 
-      <li>Halcon Milenario</li>
+      <li class="nave">Halcon Milenario</li>
       <img
         src="https://elastic-khorana-29f1fb.netlify.app/halcon_milenario.png"
         alt="halcon_milenario"
@@ -115,7 +115,7 @@
       />
       <br />
 
-      <h3>X-Wing</h3>
+      <li class="nave">X-Wing</li>
       <br />
 
       <img src="https://elastic-khorana-29f1fb.netlify.app/x_wing.png" alt="x_wing" width="700px" height="500px" />
@@ -123,5 +123,6 @@
 </ul>
 
 </ul>
+</div>
   </body>
 </html>

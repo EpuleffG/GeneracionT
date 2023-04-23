@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imperio li{
+    background-color: rgba(187, 47, 22, 0.733);
+}
+.rebeldes li{
+    background-color: rgba(22,47,187,0.733)
+}
+#id_darth_vader{
+    font-size: 30px;
+}
+#id_luke{
+    font-style: italic;
+}
+.Soldado{
+    border: 1px dashed black;
+    letter-spacing: 5px;
+    
+}
+.droide-img {
+text-align: center;
+}
+.apoyo{
+    text-align: center;
+}
+
+.nave{
+    text-transform: uppercase;
+}
